@@ -8,6 +8,6 @@ This script depends on:
  2- gcloud sdk
 
 ## Asumptions
-This script assumes you will generate/cp your RSA keys in the same directory as this script
-This script also assumes you have a service account available in the current directory with the `_sa.json` suffix
-
+1- This script assumes you will generate/cp your RSA keys in the same directory as this script
+2- This script also assumes you have a service account available in the current directory with the `_sa.json` suffix
+3- This script assumes you have already setup which project you would like to operate on using `gcloud config set project <project-id>`
