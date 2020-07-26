@@ -22,7 +22,7 @@ fi
 echo '<<<<<<   Generating GCP  metada  >>>>>>'
 read -p "SSH user: " user
 pkey=$(cat *.pub)
-echo "$user:$pkey ansible" > gcloud_metadata_file
+echo "$user:$pkey $user" > gcloud_metadata_file
 echo "====================================="
 
 echo "<<<<<<   Preparing GCLOUD >>>>>>"
